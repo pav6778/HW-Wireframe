@@ -19,7 +19,7 @@ h2 {
     font-size: 24px;
 
 }
-#container {
+.container {
     width: 1024px;
     margin: 0 auto;
 }
@@ -29,6 +29,10 @@ h2 {
 #main-bio {
     width: 70%;
 }
-img {
-    margin-bottom: 60px;
+#bio-image {
+    width: 200px;
+    margin: 0 20px 0 0 ;
+}
+#contact-info {
+    width: 30%;
 }
