@@ -1,9 +1,16 @@
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
 body {
     background-color: #efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333333;
     margin: 0;
     padding: 0;
+    line-height: 1.5em;
+
 }
 header {
     background-color: #333333
@@ -17,22 +24,23 @@ h1 {
 }
 h2 {
     font-size: 24px;
-
-}
-.container {
-    width: 1024px;
-    margin: 0 auto;
-}
-#main-bio, #contact-info, #bio-image {
-    float: left;
 }
 #main-bio {
     width: 70%;
 }
+
 #bio-image {
     width: 200px;
-    margin: 0 20px 0 0 ;
+    margin: 0 20px 20px 0 ;
 }
 #contact-info {
     width: 30%;
+}
+
+#main-bio, #contact-info, #bio-image {
+    float: left;
+}
+
+a {
+    color: #d21034;
 }
